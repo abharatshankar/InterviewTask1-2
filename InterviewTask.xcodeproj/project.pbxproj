@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		5E916AFC237718B30002B933 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E916AFB237718B30002B933 /* AppDelegate.swift */; };
-		5E916AFE237718B30002B933 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E916AFD237718B30002B933 /* ViewController.swift */; };
 		5E916B01237718B30002B933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E916AFF237718B30002B933 /* Main.storyboard */; };
 		5E916B03237718B40002B933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E916B02237718B40002B933 /* Assets.xcassets */; };
 		5E916B06237718B40002B933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E916B04237718B40002B933 /* LaunchScreen.storyboard */; };
+		A4A266D12377D8D300CB0877 /* Json4Swift_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A266CA2377D8D300CB0877 /* Json4Swift_Base.swift */; };
+		A4A266D22377D8D300CB0877 /* myDetailCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A266CB2377D8D300CB0877 /* myDetailCountry.swift */; };
+		A4A266D32377D8D300CB0877 /* myExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A266CC2377D8D300CB0877 /* myExtensions.swift */; };
+		A4A266D42377D8D300CB0877 /* countriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A266CE2377D8D300CB0877 /* countriesTableViewCell.swift */; };
+		A4A266D52377D8D300CB0877 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A266CF2377D8D300CB0877 /* ViewController.swift */; };
+		A4A266D62377D8D300CB0877 /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A266D02377D8D300CB0877 /* firstViewController.swift */; };
+		A4A266D923783BF900CB0877 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A266D823783BF900CB0877 /* WebKit.framework */; };
+		A4A266E123787BEF00CB0877 /* NetworkApiClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A266E023787BEF00CB0877 /* NetworkApiClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E916AF8237718B30002B933 /* InterviewTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E916AFB237718B30002B933 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E916AFD237718B30002B933 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E916B00237718B30002B933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E916B02237718B40002B933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E916B05237718B40002B933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E916B07237718B40002B933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4A266CA2377D8D300CB0877 /* Json4Swift_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json4Swift_Base.swift; sourceTree = "<group>"; };
+		A4A266CB2377D8D300CB0877 /* myDetailCountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myDetailCountry.swift; sourceTree = "<group>"; };
+		A4A266CC2377D8D300CB0877 /* myExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myExtensions.swift; sourceTree = "<group>"; };
+		A4A266CE2377D8D300CB0877 /* countriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = countriesTableViewCell.swift; sourceTree = "<group>"; };
+		A4A266CF2377D8D300CB0877 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4A266D02377D8D300CB0877 /* firstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
+		A4A266D823783BF900CB0877 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A4A266E023787BEF00CB0877 /* NetworkApiClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkApiClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A266D923783BF900CB0877 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,7 @@
 			children = (
 				5E916AFA237718B30002B933 /* InterviewTask */,
 				5E916AF9237718B30002B933 /* Products */,
+				A4A266D723783BF900CB0877 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +71,43 @@
 			isa = PBXGroup;
 			children = (
 				5E916AFB237718B30002B933 /* AppDelegate.swift */,
-				5E916AFD237718B30002B933 /* ViewController.swift */,
 				5E916AFF237718B30002B933 /* Main.storyboard */,
+				A4A266CD2377D8D300CB0877 /* Cells */,
+				A4A266C92377D8D300CB0877 /* Extras */,
+				A4A266D02377D8D300CB0877 /* firstViewController.swift */,
+				A4A266CF2377D8D300CB0877 /* ViewController.swift */,
 				5E916B02237718B40002B933 /* Assets.xcassets */,
 				5E916B04237718B40002B933 /* LaunchScreen.storyboard */,
 				5E916B07237718B40002B933 /* Info.plist */,
+				A4A266E023787BEF00CB0877 /* NetworkApiClass.swift */,
 			);
 			path = InterviewTask;
+			sourceTree = "<group>";
+		};
+		A4A266C92377D8D300CB0877 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				A4A266CA2377D8D300CB0877 /* Json4Swift_Base.swift */,
+				A4A266CB2377D8D300CB0877 /* myDetailCountry.swift */,
+				A4A266CC2377D8D300CB0877 /* myExtensions.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		A4A266CD2377D8D300CB0877 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A4A266CE2377D8D300CB0877 /* countriesTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A4A266D723783BF900CB0877 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4A266D823783BF900CB0877 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +181,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E916AFE237718B30002B933 /* ViewController.swift in Sources */,
+				A4A266D52377D8D300CB0877 /* ViewController.swift in Sources */,
 				5E916AFC237718B30002B933 /* AppDelegate.swift in Sources */,
+				A4A266D12377D8D300CB0877 /* Json4Swift_Base.swift in Sources */,
+				A4A266E123787BEF00CB0877 /* NetworkApiClass.swift in Sources */,
+				A4A266D42377D8D300CB0877 /* countriesTableViewCell.swift in Sources */,
+				A4A266D22377D8D300CB0877 /* myDetailCountry.swift in Sources */,
+				A4A266D32377D8D300CB0877 /* myExtensions.swift in Sources */,
+				A4A266D62377D8D300CB0877 /* firstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InterviewTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,7 +344,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = task.InterviewTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,6 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InterviewTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = task.InterviewTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
