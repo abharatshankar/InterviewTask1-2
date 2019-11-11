@@ -49,6 +49,20 @@ class ViewController: UIViewController ,WKNavigationDelegate {
             
             if let error = err {
                 
+                DispatchQueue.main.async {
+                    
+                    
+                    let alertMessage = UIAlertController(title: "Currently server is facing heavy traffic. Please try later", message: nil, preferredStyle: .alert)
+                    let alertAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+                    alertMessage.addAction(alertAction)
+                    self.present(alertMessage, animated: true, completion: nil)
+                    
+                }
+                
+                
+                
+                print("Error While getCompleteCountryDetails ----", error)
+
                 print("Err", error)
             }
             else {
