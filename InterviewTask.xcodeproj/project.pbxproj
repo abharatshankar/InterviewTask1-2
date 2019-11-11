@@ -19,6 +19,7 @@
 		A4A266D62377D8D300CB0877 /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A266D02377D8D300CB0877 /* firstViewController.swift */; };
 		A4A266D923783BF900CB0877 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A266D823783BF900CB0877 /* WebKit.framework */; };
 		A4A266E123787BEF00CB0877 /* NetworkApiClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A266E023787BEF00CB0877 /* NetworkApiClass.swift */; };
+		A4B76A542378FC1C00F7FA8F /* reachabilityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B76A532378FC1C00F7FA8F /* reachabilityClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		A4A266D02377D8D300CB0877 /* firstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
 		A4A266D823783BF900CB0877 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		A4A266E023787BEF00CB0877 /* NetworkApiClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkApiClass.swift; sourceTree = "<group>"; };
+		A4B76A532378FC1C00F7FA8F /* reachabilityClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reachabilityClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				A4A266CA2377D8D300CB0877 /* Json4Swift_Base.swift */,
 				A4A266CB2377D8D300CB0877 /* myDetailCountry.swift */,
 				A4A266CC2377D8D300CB0877 /* myExtensions.swift */,
+				A4B76A532378FC1C00F7FA8F /* reachabilityClass.swift */,
 			);
 			path = Extras;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				A4A266D12377D8D300CB0877 /* Json4Swift_Base.swift in Sources */,
 				A4A266E123787BEF00CB0877 /* NetworkApiClass.swift in Sources */,
 				A4A266D42377D8D300CB0877 /* countriesTableViewCell.swift in Sources */,
+				A4B76A542378FC1C00F7FA8F /* reachabilityClass.swift in Sources */,
 				A4A266D22377D8D300CB0877 /* myDetailCountry.swift in Sources */,
 				A4A266D32377D8D300CB0877 /* myExtensions.swift in Sources */,
 				A4A266D62377D8D300CB0877 /* firstViewController.swift in Sources */,

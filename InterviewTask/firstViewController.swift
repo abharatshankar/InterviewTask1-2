@@ -21,7 +21,22 @@ class firstViewController: UIViewController  {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        getCompleteCountryList()
+        if Reachability.isConnectedToNetwork(){
+            print("Internet Connection Available!")
+            getCompleteCountryList()
+        }else{
+            print("Internet Connection not Available!")
+            DispatchQueue.main.async {
+                
+                
+                let alertMessage = UIAlertController(title: "Internet Connection not Available!", message: nil, preferredStyle: .alert)
+                let alertAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+                alertMessage.addAction(alertAction)
+                self.present(alertMessage, animated: true, completion: nil)
+                
+            }
+        }
+        
         
         // Do any additional setup after loading the view.
     }

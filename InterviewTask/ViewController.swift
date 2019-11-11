@@ -34,7 +34,24 @@ class ViewController: UIViewController ,WKNavigationDelegate {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        getCompleteCountryDetails()
+        
+        if Reachability.isConnectedToNetwork(){
+            print("Internet Connection Available!")
+            getCompleteCountryDetails()
+        }else{
+            print("Internet Connection not Available!")
+            DispatchQueue.main.async {
+                
+                
+                let alertMessage = UIAlertController(title: "Internet Connection not Available!", message: nil, preferredStyle: .alert)
+                let alertAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+                alertMessage.addAction(alertAction)
+                self.present(alertMessage, animated: true, completion: nil)
+                
+            }
+        }
+        
+        
     }
     
     
